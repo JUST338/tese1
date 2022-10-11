@@ -1,15 +1,17 @@
 #include<stdio.h>
 int main()
 {
+	//æ¥è¯•è¯•
+	
 	float r,h;
 	float pai=3.14; 
 	scanf("%fl",&r);
 	scanf("%fl",&h);
-	printf("Ô²ÖÜ³¤=%.2f\n",2*pai*r);
-	printf("Ô²Ãæ»ı=%.2f\n",r*pai*r);
-	printf("Ô²Çò±íÃæ»ı=%.2f\n",4*pai*r*r);
-	printf("Ô²ÇòÌå»ı=%.2f\n",(4.0/3.0)*pai*r*r*r);
-	printf("Ô²ÖùÌå»ı=%.2f\n",r*pai*r*h);
+	printf("é€”é·ºë‚€=%.2f\n",2*pai*r);
+	printf("é€”ì¶©ìƒ=%.2f\n",r*pai*r);
+	printf("é€”í—·ê¹Šì¶©ìƒ=%.2f\n",4*pai*r*r);
+	printf("é€”í—·ç«Ÿìƒ=%.2f\n",(4.0/3.0)*pai*r*r*r);
+	printf("é€”æ–™ç«Ÿìƒ=%.2f\n",r*pai*r*h);
 	return 0; 
 }
  
